@@ -1,0 +1,73 @@
+.mce-alert {
+    --mce-alert-bg: transparent;
+    --mce-alert-padding-x: 1rem;
+    --mce-alert-padding-y: 1rem;
+    --mce-alert-margin-bottom: 1rem;
+    --mce-alert-color: inherit;
+    --mce-alert-border-color: transparent;
+    --mce-alert-border: 1px solid var(--mce-alert-border-color);
+    --mce-alert-border-radius: 0.375rem;
+    position: relative;
+    padding: var(--mce-alert-padding-y) var(--mce-alert-padding-x);
+    margin-bottom: var(--mce-alert-margin-bottom);
+    color: var(--mce-alert-color);
+    background-color: var(--mce-alert-bg);
+    border: var(--mce-alert-border);
+    border-radius: var(--mce-alert-border-radius);
+}
+
+.mce-alert-primary {
+    --mce-alert-color: #084298;
+    --mce-alert-bg: #cfe2ff;
+    --mce-alert-border-color: #b6d4fe;
+}
+
+.mce-alert-secondary {
+    --mce-alert-color: #41464b;
+    --mce-alert-bg: #e2e3e5;
+    --mce-alert-border-color: #d3d6d8;
+}
+
+.mce-alert-success {
+    --mce-alert-color: #0f5132;
+    --mce-alert-bg: #d1e7dd;
+    --mce-alert-border-color: #badbcc;
+}
+
+.mce-alert-danger {
+    --mce-alert-color: #842029;
+    --mce-alert-bg: #f8d7da;
+    --mce-alert-border-color: #f5c2c7;
+}
+
+.mce-alert-warning {
+    --mce-alert-color: #664d03;
+    --mce-alert-bg: #fff3cd;
+    --mce-alert-border-color: #ffecb5;
+}
+
+.mce-alert-info {
+    --mce-alert-color: #055160;
+    --mce-alert-bg: #cff4fc;
+    --mce-alert-border-color: #bee5eb;
+}
+
+.mce-alert-light {
+    --mce-alert-color: #636464;
+    --mce-alert-bg: #fefefe;
+    --mce-alert-border-color: #fdfdfe;
+}
+
+.mce-alert-dark {
+    --mce-alert-color: #141619;
+    --mce-alert-bg: #d3d3d4;
+    --mce-alert-border-color: #c4c4c5;
+}
+
+.mce-alert-link {
+    font-weight: 700;
+}
+
+.mce-alert-heading {
+    color: inherit;
+}
